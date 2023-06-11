@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luciano\\Desktop\\BackendBolsaDeTrabajoUTN\\TP_LC4\\TP_LC4\\TP_LC4.csproj": {}
+    "C:\\Users\\Luciano\\Desktop\\TP_C\\TP_LC4_TEST\\TP_LC4\\TP_LC4\\TP_LC4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luciano\\Desktop\\BackendBolsaDeTrabajoUTN\\TP_LC4\\TP_LC4\\TP_LC4.csproj": {
+    "C:\\Users\\Luciano\\Desktop\\TP_C\\TP_LC4_TEST\\TP_LC4\\TP_LC4\\TP_LC4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luciano\\Desktop\\BackendBolsaDeTrabajoUTN\\TP_LC4\\TP_LC4\\TP_LC4.csproj",
+        "projectUniqueName": "C:\\Users\\Luciano\\Desktop\\TP_C\\TP_LC4_TEST\\TP_LC4\\TP_LC4\\TP_LC4.csproj",
         "projectName": "TP_LC4",
-        "projectPath": "C:\\Users\\Luciano\\Desktop\\BackendBolsaDeTrabajoUTN\\TP_LC4\\TP_LC4\\TP_LC4.csproj",
+        "projectPath": "C:\\Users\\Luciano\\Desktop\\TP_C\\TP_LC4_TEST\\TP_LC4\\TP_LC4\\TP_LC4.csproj",
         "packagesPath": "C:\\Users\\Luciano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luciano\\Desktop\\BackendBolsaDeTrabajoUTN\\TP_LC4\\TP_LC4\\obj\\",
+        "outputPath": "C:\\Users\\Luciano\\Desktop\\TP_C\\TP_LC4_TEST\\TP_LC4\\TP_LC4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luciano\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,9 +58,23 @@
               "target": "Package",
               "version": "[6.0.13, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
